@@ -7,7 +7,7 @@
 <head>
     <title>Colmar Academy</title> 
     <link rel="stylesheet" type="text/css" href="{% static 'webapp/capstoneproject.css' %}">   
-    <link rel="icon" href="./capstone/favicon (1).ico" type="image/x-icon">
+    <link rel="icon" href="{% static 'webapp/capstone/favicon (1).ico' %}" type="image/x-icon">
     <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 
@@ -77,8 +77,8 @@
         <!-- <div class="border"> -->
         <div class="main-container-right">
           <div class="main-sub-container">
-              <img class="img-desktop" src="./capstone/information-orientation.jpg' %}" alt="best-school" />
-              <img class="img-mobile" src="./capstone/information-orientation-mobile.jpg' %}" alt="Orientation-date" />
+              <img class="img-desktop" src="{% static 'webapp/capstone/information-orientation.jpg' %}" alt="best-school" />
+              <img class="img-mobile" src="{% static 'webapp/capstone/information-orientation-mobile.jpg' %}" alt="Orientation-date" />
               <div class="main-text">
                   <h3>Orientation date</h3>
                   <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -87,8 +87,8 @@
           </div> 
 
             <div class="main-sub-container">
-                <img class="img-desktop" src="./capstone/information-campus.jpg' %}" alt="best-school" />
-                <img class="img-mobile" src="./capstone/information-campus-mobile.jpg' %}" alt="Orientation-date" />
+                <img class="img-desktop" src="{% static 'webapp/capstone/information-campus.jpg' %}" alt="best-school" />
+                <img class="img-mobile" src="{% static 'webapp/capstone/information-campus-mobile.jpg' %}" alt="Orientation-date" />
                 <div class="main-text">
                     <h3>Our campus</h3>
                     <p>Find which campus is close by you</p>
