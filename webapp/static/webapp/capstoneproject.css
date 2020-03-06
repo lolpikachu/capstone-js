@@ -18,6 +18,11 @@ html {
 
 /* Header */
 
+#particles-js {
+    height: 100%;
+    background: black;
+}
+
 header {
     width: 100%;
     display: inline-flex;
