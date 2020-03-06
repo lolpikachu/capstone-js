@@ -29,7 +29,8 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 64px;   
-    padding-top: 24px;    
+    padding-top: 24px; 
+    /* position: absolute;  */
 }
 
 .logo {
@@ -37,6 +38,16 @@ header {
     display: flex;  
     align-items: center;
     height: auto;    
+}
+
+.lol {
+    color: white;
+    opacity: 0.4;
+    position: absolute;
+    left: 40%;
+    right: 50%;
+    top: 45%;
+    font-size: 4em;
 }
 
 header img {
