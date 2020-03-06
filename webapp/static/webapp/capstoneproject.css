@@ -44,11 +44,12 @@ header {
     color: white;
     opacity: 0.4;
     position: absolute;
-    left: 40%;
+    left: 33%;
     right: 50%;
-    top: 45%;
-    font-size: 4em;
+    top: 43%;
+    font-size: 4rem;
 }
+
 
 header img {
     height: 70px;
@@ -504,6 +505,9 @@ footer p {
     .course-container {
         width: 100%;
     }
+    .lol {
+        display: none;
+     }
 
     @media only screen and (max-width: 600px) {
         * {
@@ -517,6 +521,14 @@ footer p {
         display: none;
     }
     
+    .lol {
+       display: none;
+    }
+
+    header {
+        background-color: white;
+        opacity: 0.3;
+    }
     .courses-container {
         background-color: white;
         border-top: 1px solid #d8d8d8;
