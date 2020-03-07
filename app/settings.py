@@ -25,7 +25,7 @@ SECRET_KEY = 'i*wwenlw7-fxxq7@q%pdv4&yo!x%n!km!uf9f6%rf54u=82@6@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['188.166.11.201', '7ai42.cf' '127.0.0.1']
+ALLOWED_HOSTS = ['188.166.11.201', '7ai42.cf', 'dopedomain.gq', '127.0.0.1']
 
 
 # Application definition
