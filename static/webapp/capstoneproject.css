@@ -18,13 +18,19 @@ html {
 
 /* Header */
 
+#particles-js {
+    height: 100%;
+    background: black;
+}
+
 header {
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     height: 64px;   
-    padding-top: 24px;    
+    padding-top: 24px; 
+    /* position: absolute;  */
 }
 
 .logo {
@@ -33,6 +39,17 @@ header {
     align-items: center;
     height: auto;    
 }
+
+.lol {
+    color: white;
+    opacity: 0.4;
+    position: absolute;
+    left: 33%;
+    right: 50%;
+    top: 43%;
+    font-size: 4rem;
+}
+
 
 header img {
     height: 70px;
@@ -488,6 +505,9 @@ footer p {
     .course-container {
         width: 100%;
     }
+    .lol {
+        display: none;
+     }
 
     @media only screen and (max-width: 600px) {
         * {
@@ -501,6 +521,14 @@ footer p {
         display: none;
     }
     
+    .lol {
+       display: none;
+    }
+
+    header {
+        background-color: white;
+        opacity: 0.3;
+    }
     .courses-container {
         background-color: white;
         border-top: 1px solid #d8d8d8;
