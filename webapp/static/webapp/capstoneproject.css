@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
 
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     /* width: 100%;   */
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-weight: 100; */
     color: #4a4a4a;
 }
 
@@ -18,6 +21,12 @@ html {
 
 /* Header */
 
+h1 {
+    color: #bbb7b7;
+    font-size: 2rem;
+    text-align: left;
+    opacity: 1;
+}
 #particles-js {
     height: 100%;
     background: black;
@@ -28,8 +37,9 @@ header {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    height: 64px;   
-    padding-top: 24px; 
+    /* height: 64px;    */
+    /* padding-top: 1rem;  */
+    /* margin-top: 0.3rem; */
     /* position: absolute;  */
 }
 
@@ -50,30 +60,28 @@ header {
     font-size: 4rem;
 }
 
-
-header img {
-    height: 70px;
-}
-
-
-
-header h2 span {
-    color: #9b9b9b;
-    font-weight: 300;
-}
-
 nav {
     margin-right: 24px;
+    display: inline-flex;
+    /* justify-content: space-between; */
 }
 
-
+.logo_text {
+    color:#9b9b9b;
+    text-decoration: none;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
 
 nav li {
     display: inline-block;  
 }
 
 nav a {
-      color: #4a4a4a;
+      color: #9b9b9b;
       text-decoration: none;
 }
 
