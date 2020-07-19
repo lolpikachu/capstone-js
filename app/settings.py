@@ -25,7 +25,7 @@ SECRET_KEY = 'i*wwenlw7-fxxq7@q%pdv4&yo!x%n!km!uf9f6%rf54u=82@6@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '95.217.155.245', 'colmar.gq']
+ALLOWED_HOSTS = ['127.0.0.1', '95.217.155.245', 'ovrax.com']
 
 
 # Application definition
