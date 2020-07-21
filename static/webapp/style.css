@@ -1,0 +1,19 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#particles-js {
+    height: 100%;
+    background: black;
+    position: absolute;
+    z-index: 1;
+}
+
+h1, p {
+    color: white;
+    display: flex;
+    /* position: a; */
+}
