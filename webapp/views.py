@@ -10,7 +10,10 @@ def index_ru(request):
     return render(request, 'webapp/index_ru.html')
 
 def portfolio(request):
-    return render(request, 'webapp/portfolio.html')       
+    return render(request, 'webapp/portfolio.html')
+
+def example_1(request):
+    return render(request, 'webapp/portfolio/example_1.html')             
 
 
 

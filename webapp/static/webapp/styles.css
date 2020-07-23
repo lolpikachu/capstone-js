@@ -10157,6 +10157,13 @@ body {
   font-weight: 700;
   padding: 0.9rem 0;
 }
+
+#mainNav .port-navbar-brand {
+  color: black;
+  font-weight: 700;
+  padding: 0.9rem 0;
+}
+
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
   outline: none;
@@ -10183,6 +10190,13 @@ body {
     padding: 2rem 1.5rem;
     color: rgba(255, 255, 255, 0.5);
   }
+
+  #mainNav .port-nav-link {
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: black;
+  }
+
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
   }
@@ -10229,7 +10243,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("assets/img/bg-masthead.gif"), repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

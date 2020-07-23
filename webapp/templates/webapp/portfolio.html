@@ -10,18 +10,18 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Stylish Portfolio - Start Bootstrap Template</title>
+  <title>OVRAX Portfolio</title>
 
-  <!-- Bootstrap Core CSS -->
-  <link href="{% static 'portfolio/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'webapp/portfolio/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
   <!-- Custom Fonts -->
-  <link href="{% static 'portfolio/vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'webapp/portfolio/vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="{% static 'portfolio/vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'webapp/portfolio/vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="{% static 'portfolio/css/stylish-portfolio.min.css' %}" rel="stylesheet">
+  <link href="{% static 'webapp/portfolio/css/stylish-portfolio.min.css' %}" rel="stylesheet">
+  <link href="{% static 'webapp/styles.css' %}" rel='stylesheet' />
   
 
 </head>
@@ -29,17 +29,17 @@
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="/">OVRAX</a>
+        <a class="port-navbar-brand js-scroll-trigger" href="/">OVRAX</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#projects">Services</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#signup">Contact</a></li>
+                <li class="nav-item"><a class="port-nav-link js-scroll-trigger" href="/#about">About</a></li>
+                <li class="nav-item"><a class="port-nav-link js-scroll-trigger" href="/#projects">Services</a></li>
+                <li class="nav-item"><a class="port-nav-link js-scroll-trigger" href="portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="port-nav-link js-scroll-trigger" href="/#signup">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -55,14 +55,14 @@
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+          <a class="portfolio-item" href="portfolio/example-1">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Stationary</div>
                 <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
               </div>
             </div>
-            <img class="img-fluid" src="{% static 'portfolio/img/portfolio-1.jpg' %}" alt="">
+            <img class="img-fluid" src="{% static 'webapp/portfolio/img/portfolio-1.jpg' %}" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -73,7 +73,7 @@
                 <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
               </div>
             </div>
-            <img class="img-fluid" src="{% static 'portfolio/img/portfolio-2.jpg' %}" alt="">
+            <img class="img-fluid" src="{% static 'webapp/portfolio/img/portfolio-2.jpg' %}" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -84,7 +84,7 @@
                 <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
               </div>
             </div>
-            <img class="img-fluid" src="{% static 'portfolio/img/portfolio-3.jpg' %}" alt="">
+            <img class="img-fluid" src="{% static 'webapp/portfolio/img/portfolio-3.jpg' %}" alt="">
           </a>
         </div>
         <div class="col-lg-6">
@@ -95,7 +95,7 @@
                 <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
               </div>
             </div>
-            <img class="img-fluid" src="{% static 'portfolio/img/portfolio-4.jpg' %}" alt="">
+            <img class="img-fluid" src="{% static 'webapp/portfolio/img/portfolio-4.jpg' %}" alt="">
           </a>
         </div>
       </div>
@@ -154,14 +154,14 @@
       <!-- Core theme JS-->
       <script src="{% static 'webapp/js/scripts.js' %}"></script>
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="{% static 'webapp/portfolio/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'webapp/portfolio/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="{% static 'webapp/portfolio/vendor/jquery-easing/jquery.easing.min.js' %}"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
+  <script src="{% static 'webapp/portfolio/js/stylish-portfolio.min.js' %}"></script>
 
 </body>
 

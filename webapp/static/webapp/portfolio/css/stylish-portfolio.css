@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
-body,
+/* body,
 html {
   width: 100%;
   height: 100%;
@@ -46,7 +46,7 @@ h6 {
 }
 
 /* Map */
-.map {
+/* .map {
   height: 30rem;
 }
 
@@ -112,10 +112,10 @@ h6 {
   .masthead h1 {
     font-size: 5.5rem;
   }
-}
+} */
 
 /* Side Menu */
-#sidebar-wrapper {
+/* #sidebar-wrapper {
   position: fixed;
   z-index: 2;
   right: 0;
@@ -224,7 +224,7 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
-}
+} */ */
 
 .portfolio-item {
   display: block;
