@@ -1,0 +1,168 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Stylish Portfolio - Start Bootstrap Template</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="{% static 'portfolio/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="{% static 'portfolio/vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="{% static 'portfolio/vendor/simple-line-icons/css/simple-line-icons.css' %}" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="{% static 'portfolio/css/stylish-portfolio.min.css' %}" rel="stylesheet">
+  
+
+</head>
+
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="/">OVRAX</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#projects">Services</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/#signup">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+  <!-- Portfolio -->
+  <section class="content-section" id="portfolio">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <h2 class="mb-5">Recent Projects</h2>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Stationary</div>
+                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="{% static 'portfolio/img/portfolio-1.jpg' %}" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Ice Cream</div>
+                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="{% static 'portfolio/img/portfolio-2.jpg' %}" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Strawberries</div>
+                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="{% static 'portfolio/img/portfolio-3.jpg' %}" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Workspace</div>
+                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="{% static 'portfolio/img/portfolio-4.jpg' %}" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+        <!-- Contact-->
+        <section class="contact-section bg-black">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                          <div class="card-body text-center">
+                              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                              <h4 class="text-uppercase m-0">Location</h4>
+                              <hr class="my-4" />
+                              <div class="small text-black-50">Warsaw, Poland</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                          <div class="card-body text-center">
+                              <i class="fas fa-envelope text-primary mb-2"></i>
+                              <h4 class="text-uppercase m-0">Email</h4>
+                              <hr class="my-4" />
+                              <div class="small text-black-50"><a href="#!">ovrax@ovrax.com</a></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                          <div class="card-body text-center">
+                              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                              <h4 class="text-uppercase m-0">Phone</h4>
+                              <hr class="my-4" />
+                              <div class="small text-black-50">+48 731-257-129</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="social d-flex justify-content-center">
+                  <a class="mx-2" href="https://t.me/pikachuchan"><i class="fab fa-telegram"></i></a>
+                  <a class="mx-2" href="#!"><i class="fab fa-whatsapp"></i></a>
+                  <a class="mx-2" href="#!"><i class="fab fa-viber"></i></a>
+              </div>
+          </div>
+      </section>
+      <!-- Footer-->
+      <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © OVRAX 2020</div></footer>
+      <!-- Bootstrap core JS-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+      <!-- Third party plugin JS-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      <!-- Core theme JS-->
+      <script src="{% static 'webapp/js/scripts.js' %}"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
+</html>
