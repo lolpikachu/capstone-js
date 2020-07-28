@@ -6,8 +6,8 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'webapp/index.html')
 
-def index_ru(request):
-    return render(request, 'webapp/index_ru.html')
+# def index_ru(request):
+#     return render(request, 'webapp/index_ru.html')
 
 def about(request):
     return render(request, 'webapp/about.html')
